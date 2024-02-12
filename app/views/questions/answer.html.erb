@@ -1,4 +1,6 @@
-<p>You said : <%= @user_input %></p>
+<p>You said: <%= @user_input %> </p>
+
+<p class="mt-6">Your coach said:</p>
 <h1><%= @answer %></h1>
 
-<%= link_to "Ask again", ask_path %>
+<%= link_to "Ask another question", ask_path, class: 'btn btn-primary mt-3' %>
